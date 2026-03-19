@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 ALLOWED_EXTENSIONS = {".mp3", ".wav"}
-MAX_FILE_SIZE_MB = 25
+MAX_FILE_SIZE_MB = 150
 
 def estimate_sections(total_bars: int):
     if total_bars <= 0:
